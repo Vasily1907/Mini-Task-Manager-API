@@ -183,7 +183,3 @@ DELETE /tasks/{task_id}
 ```
 
 ---
-
-## License
-
-This project is open-source and intended for educational purposes.

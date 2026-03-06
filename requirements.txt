@@ -1,0 +1,38 @@
+## Requirements
+
+To run this project locally, make sure you have the following installed:
+
+- Python 3.10 or newer
+- pip (Python package manager)
+- Git (optional, for cloning the repository)
+
+The project uses the following Python libraries:
+
+- FastAPI
+- Uvicorn
+- SQLAlchemy
+- Pydantic
+
+These dependencies are listed in the `requirements.txt` file and can be installed with:
+
+```
+pip install -r requirements.txt
+```
+
+After installing the dependencies, you can run the API server with:
+
+```
+uvicorn app.main:app --reload
+```
+
+Once the server is running, the API will be available at:
+
+```
+http://127.0.0.1:8000
+```
+
+Interactive API documentation is available at:
+
+```
+http://127.0.0.1:8000/docs
+```
